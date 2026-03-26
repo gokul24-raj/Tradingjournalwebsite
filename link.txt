@@ -1,0 +1,53 @@
+
+karth@KARTHI MINGW64 /e/PROJECTS/Tradingjournalwebsite (gk)
+$ git stages .
+git: 'stages' is not a git command. See 'git --help'.
+
+The most similar command is
+        stage
+
+karth@KARTHI MINGW64 /e/PROJECTS/Tradingjournalwebsite (gk)
+$ git staged .
+git: 'staged' is not a git command. See 'git --help'.
+
+The most similar command is
+        stage
+
+karth@KARTHI MINGW64 /e/PROJECTS/Tradingjournalwebsite (gk)
+$ git restore -- staged .
+error: pathspec 'staged' did not match any file(s) known to git
+
+karth@KARTHI MINGW64 /e/PROJECTS/Tradingjournalwebsite (gk)
+$ git restore -- staged README.md
+error: pathspec 'staged' did not match any file(s) known to git
+
+karth@KARTHI MINGW64 /e/PROJECTS/Tradingjournalwebsite (gk)
+$ g
+bash: g: command not found
+
+karth@KARTHI MINGW64 /e/PROJECTS/Tradingjournalwebsite (gk)
+$ git add .
+
+karth@KARTHI MINGW64 /e/PROJECTS/Tradingjournalwebsite (gk)
+$ git status
+On branch gk
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+        new file:   link.txt
+
+
+karth@KARTHI MINGW64 /e/PROJECTS/Tradingjournalwebsite (gk)
+$ git staged .
+git: 'staged' is not a git command. See 'git --help'.
+
+The most similar command is
+        stage
+
+karth@KARTHI MINGW64 /e/PROJECTS/Tradingjournalwebsite (gk)
+$ git restore -- staged README.md
+error: pathspec 'staged' did not match any file(s) known to git
+
+karth@KARTHI MINGW64 /e/PROJECTS/Tradingjournalwebsite (gk)
+$
+
